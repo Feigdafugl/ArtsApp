@@ -1,0 +1,59 @@
+export const ON_LOGGIN = 'onLogin';
+export const TEST_ACTION_TYPE_ONE = 'one';
+export const TEST_ACTION_TYPE_TWO = 'two';
+export const TEST_ACTION_TYPE_THREE = 'three';
+export const TEST_ACTION_TYPE_FOUR = 'four';
+
+// key
+
+export const ACTION_CHOSEN_KEY = 'ACTION_CHOSEN_KEY';
+export const ACTION_VALUE_CHANGE = 'ACTION_VALUE_CHANGE';
+export const ACTION_SP_LEFT = 'ACTION_SP_LEFT';
+export const ACTION_FULL_SPECIES = 'ACTION_FULL_SPECIES';
+export const ACTION_SELCTED_SP = 'ACTION_SELCTED_SP';
+export const ACTION_ALL_KEYS = 'ACTION_ALL_KEYS';
+export const ACTION_RESET_KEY = 'ACTION_RESET_KEY';
+export const TRAIT_VALUE_COMBO = 'TRAIT_VALUE_COMBO';
+export const KEY_DETAILS = 'KEY_DETAILS';
+export const VALUE_IMAGES = 'VALUE_IMAGES';
+export const DOWNLOAD_KEY = 'DOWNLOAD_KEY';
+export const RESETT_TRAIT_VALUE = 'RESETT_TRAIT_VALUE';
+export const RESETTING_RESET = 'RESETTING_RESET';
+export const ALL_SPESIES_IMAGES = 'ALL_SPESIES_IMAGES';
+
+// Menu
+
+export const OPEN_MENU = 'OPEN_MENU';
+export const CLOSE_MENU = 'CLOSE_MENU';
+
+
+// nav
+export const FROM_PAGE = 'FROM_PAGE';
+
+
+// observations
+export const GET_ALL_OBSERVATIONS = 'GET_ALL_OBSERVATIONS';
+export const DELETE_OBSERVATION = 'DELETE_OBSERVATION';
+export const NEW_OBSERVATION = 'NEW_OBSERVATION';
+export const GET_OBSERVATION = 'GET_OBSERVATION';
+export const UPDATE_NERBY = 'UPDATE_NERBY';
+export const UPDATE_MODAL_OPEN = 'UPDATE_MODAL_OPEN';
+export const UPDATE_SUCCESS = 'UPDATE_SUCCESS';
+export const UPDATE_RESET = 'UPDATE_RESET';
+
+
+// settings
+export const SET_LANGUAGE = 'SET_LANGUAGE';
+export const GET_LANGUAGE = 'GET_LANGUAGE';
+export const GET_LANG_STRINGS = 'GET_LANG_STRINGS';
+export const UPDATE_CONNECTIVITY = 'UPDATE_CONNECTIVITY';
+export const DEBUG_MODE = 'DEBUG_MODE';
+export const SET_LAST_DOWNLOAD = 'SET_LAST_DOWNLOAD';
+export const GET_LAST_DOWNLOAD = 'GET_LAST_DOWNLOAD';
+export const UPDATE_KEYS = 'UPDATE_KEYS';
+export const KEYS_FROM_API = 'KEYS_FROM_API';
+export const SET_LOCATION = 'SET_LOCATION';
+export const KEY_LIST_UPDATED = 'KEY_LIST_UPDATED';
+export const DELETE_KEY_DATA = 'DELETE_KEY_DATA';
+export const SET_UPDATELIST = 'SET_UPDATELIST';
+export const RESET_UPDATE_KEY = 'RESET_UPDATE_KEY';
