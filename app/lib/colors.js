@@ -1,6 +1,6 @@
 
 /**
- *@file collors.js
+ *@file colors.js
  *@author Kjetil Fossheim
  *
  * colors used in app and logo
