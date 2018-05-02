@@ -6,7 +6,7 @@
  */
 
 import React, { Component } from 'react';
-import ImageConfig from '../config/nettwork/ImageConfig';
+import ImageConfig from '../config/network/ImageConfig';
 import {
   StyleSheet,
   Text,

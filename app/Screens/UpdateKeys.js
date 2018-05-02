@@ -17,7 +17,7 @@ import { StyleProvider, Container, Header, FooterTab, Footer, List, Input, Spinn
 import Modal from 'react-native-simple-modal';
 import Toast, {DURATION} from 'react-native-easy-toast';
 import { Actions } from 'react-native-router-flux';
-import KeyDownload from '../config/nettwork/KeyDownload';
+import KeyDownload from '../config/network/KeyDownload';
 
 
 // theme

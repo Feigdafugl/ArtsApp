@@ -7,6 +7,7 @@
 
 import DB_helper from '../DB/DB_helper';
 import ImageConfig from './ImageConfig';
+import * as URLs from './URLs';
 
 export default class KeyDownload {
 
@@ -22,7 +23,7 @@ export default class KeyDownload {
    */
   getkeyListFromApi() {
     return new Promise((resolve, reject) =>{
-      fetch('https://artsapp.uib.no/api/v1/keys/list/all')
+      fetch(URLs.KEY_ALL)
       .then((response) => response.json())
       .then((retJSON) => {
         let ret = this.keysJSONParser(retJSON);
@@ -59,7 +60,7 @@ export default class KeyDownload {
     let newKeylist = [];
     let someUpdate = false;
     return new Promise((resolve, reject) =>{
-      fetch('https://artsapp.uib.no/api/v1/keys/list/all')
+      fetch(URLs.KEY_ALL)
       .then((response) => response.json())
       .then((retJSON) => {
         let ret = this.keysJSONParser(retJSON);

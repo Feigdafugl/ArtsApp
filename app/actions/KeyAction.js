@@ -1,7 +1,7 @@
 
 import * as actionTypes from './actionTypes';
 import DB_helper from '../config/DB/DB_helper';
-import KeyDownload  from '../config/nettwork/KeyDownload';
+import KeyDownload  from '../config/network/KeyDownload';
 
 export function setTest() {
   return {
