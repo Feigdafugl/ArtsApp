@@ -14,7 +14,7 @@ import {
 import { Actions } from 'react-native-router-flux';
 import {List, ListItem} from 'native-base/backward';
 import { Button, Spinner,Icon, Container, StyleProvider, Header, Footer, FooterTab, Title, Content,Left, Body, Right,} from 'native-base';
-import SpesiesElement from '../components/SpesiesElement';
+import SpeciesElement from '../components/SpeciesElement';
 import Modal from 'react-native-simple-modal';
 import Toast, {DURATION} from 'react-native-easy-toast';
 
@@ -259,7 +259,7 @@ class SpeciesLeft extends Component {
     if (this.props.nerbyList.length !== 0 && typeof t !== 'undefined' ) {
       return (
         <ListItem button key= {item.species_id} onPress={this.onClickSP.bind(this,item, t.obsSmall )}>
-          <SpesiesElement
+          <SpeciesElement
             key= {item.species_id}
             species_id = {item.species_id}
             latinName =  {item.latinName}
@@ -275,7 +275,7 @@ class SpeciesLeft extends Component {
     }
     return (
       <ListItem button key= {item.species_id} onPress={this.onClickSP.bind(this,item, 0 )}>
-        <SpesiesElement
+        <SpeciesElement
           key= {item.species_id}
           species_id = {item.species_id}
           latinName =  {item.latinName}

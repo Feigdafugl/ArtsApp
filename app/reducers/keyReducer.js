@@ -186,12 +186,12 @@ export default function(state = DEFAULT_STATE, actions) {
     return{...state,
       valueImageError: actions.payload,
     };
-  case `${actionTypes.ALL_SPESIES_IMAGES}_SUCCESS`:
+  case `${actionTypes.ALL_SPECIES_IMAGES}_SUCCESS`:
     return{...state,
       spesiecImageList: actions.payload
     };
-  case `${actionTypes.ALL_SPESIES_IMAGES}_LOADING`:
-  case `${actionTypes.ALL_SPESIES_IMAGES}_ERROR`:
+  case `${actionTypes.ALL_SPECIES_IMAGES}_LOADING`:
+  case `${actionTypes.ALL_SPECIES_IMAGES}_ERROR`:
     return{...state,
       speciesImageError: actions.payload,
     };

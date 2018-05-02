@@ -30,7 +30,7 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-class SpesiesElement extends Component {
+class SpeciesElement extends Component {
 
   constructor(props) {
     super(props);
@@ -110,7 +110,7 @@ class SpesiesElement extends Component {
   }
 }
 
-SpesiesElement.defaultProps = {
+SpeciesElement.defaultProps = {
   species_id: -99,
   latinName: 'testLatin',
   localName: 'TesteLocal',
@@ -176,4 +176,4 @@ const AndroidTabletStyles = StyleSheet.create({
 });
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(SpesiesElement);
+export default connect(mapStateToProps, mapDispatchToProps)(SpeciesElement);

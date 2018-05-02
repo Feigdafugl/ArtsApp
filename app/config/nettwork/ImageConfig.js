@@ -106,13 +106,13 @@ export default class ImageConfig {
 
 
   // not in use
-  static saveSpeciesImages(spesies) {
-    let url = speciesImgURL + spesies.id;
+  static saveSpeciesImages(species) {
+    let url = speciesImgURL + species.id;
     return new Promise.all(()=>{
-      return spesies.names.map((img, index)=>{
+      return species.names.map((img, index)=>{
         return RNFetchBlob
           .config({
-            path : dirs + '/' + keyObj.id + speciesDir + '/s' + spesies.id + img
+            path : dirs + '/' + keyObj.id + speciesDir + '/s' + species.id + img
           })
           .fetch('GET', url, {
           });

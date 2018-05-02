@@ -105,7 +105,7 @@ export function getValueImages(keyId) {
 export function getAllSpImages(keyId) {
   this.DB_helper = new DB_helper();
   return {
-    type: actionTypes.ALL_SPESIES_IMAGES,
+    type: actionTypes.ALL_SPECIES_IMAGES,
     payload: {
       promise: this.DB_helper.getAllSpImagestoKey(keyId),
     },
