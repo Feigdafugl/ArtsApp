@@ -30,7 +30,7 @@ export default class Debug extends Component {
       count: 0,
       keyList: null,
       path: '',
-      // dataSource: ds.cloneWithRows(this.getContant()),
+      // dataSource: ds.cloneWithRows(this.getContent()),
     };
   }
 

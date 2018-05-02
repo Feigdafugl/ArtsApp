@@ -14,7 +14,7 @@ import {Drawer } from 'native-base';
 import { Router, Scene, ActionConst, Actions } from 'react-native-router-flux';
 import { bindActionCreators } from 'redux';
 import * as MenuAction from './actions/MenuAction';
-import MenuContant from './components/MenuContant';
+import MenuContent from './components/MenuContent';
 import Frontpage from './Screens/Frontpage';
 import Key from './Screens/Key';
 import Observation from './Screens/Observation';
@@ -190,7 +190,7 @@ class ArtsApp extends Component {
           ref={(ref) => {
             this._drawer = ref;
           }}
-          content={<MenuContant/>}
+          content={<MenuContent/>}
           tapToClose
           type="overlay"
           onClose={() => this.closeDrawer()}

@@ -47,7 +47,7 @@ export function getlastDownload() {
   };
 };
 
-export function setContantStrings(lang) {
+export function setContentStrings(lang) {
   this.LangStrings = new LangStrings();
   return {
     type: actionTypes.GET_LANG_STRINGS,

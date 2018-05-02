@@ -44,11 +44,11 @@ class AppSetup extends Component {
     this.AsyncStore.getLanguage()
     .then((value) => {
       if (value === null) {
-        this.props.actions.setContantStrings('no');
+        this.props.actions.setContentStrings('no');
         this.props.actions.setLanguage('no');
       }
       else {
-        this.props.actions.setContantStrings(value);
+        this.props.actions.setContentStrings(value);
       }
     });
   }

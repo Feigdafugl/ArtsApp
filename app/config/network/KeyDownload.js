@@ -115,7 +115,7 @@ export default class KeyDownload {
    */
   downloadKey(webname) {
     return new Promise((resolve, reject) => {
-      fetch(BASE_URL + 'keys/get/' + webname)
+      fetch(URLs.BASE_URL + 'keys/get/' + webname)
       .then((response) => response.json())
       .then((retJSON) => {
         this.keyJSONParser(retJSON)
@@ -145,7 +145,7 @@ export default class KeyDownload {
    */
   downloadKeyUpdate(webname) {
     return new Promise((resolve, reject) => {
-      fetch(BASE_URL + 'keys/get/' + webname)
+      fetch(URLs.BASE_URL + 'keys/get/' + webname)
       .then((response) => response.json())
       .then((retJSON) => {
         this.keyJSONParser(retJSON)
