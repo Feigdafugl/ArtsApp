@@ -6,14 +6,14 @@
  */
 export const BASE_URL = 'https://artsapp.uib.no/api/v1/';
 
-export const KEY_ALL = 'https://artsapp.uib.no/api/v1/keys/list/all';
-export const KEY_PROD = 'https://artsapp.uib.no/api/v1/keys/list/prod';
-export const KEY_BETA = 'https://artsapp.uib.no/api/v1/keys/list/beta';
-export const KEY_PUBLISHED = 'https://artsapp.uib.no/api/v1/keys/list/published';
-export const KEY_DELETED = 'https://artsapp.uib.no/api/v1/keys/list/deleted';
+export const KEY_ALL = BASE_URL + 'keys/list/all';
+export const KEY_PROD = BASE_URL + 'keys/list/prod';
+export const KEY_BETA = BASE_URL + 'keys/list/beta';
+export const KEY_PUBLISHED = BASE_URL + 'keys/list/published';
+export const KEY_DELETED = BASE_URL + 'keys/list/deleted';
 
 
-export const OCCURENCE_BASE = 'https://artsapp.uib.no/api/v1/geo/occurence/';
+export const OCCURENCE_BASE = BASE_URL + 'geo/occurence/';
 
 
 export const TRAIT_VALUE_COMBO = 'TRAIT_VALUE_COMBO';
