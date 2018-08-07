@@ -29,7 +29,7 @@ import common from '../native-base-theme/variables/commonColor';
 import androidTablet from '../native-base-theme/variables/androidTablet';
 
 // redux
-import ImageConfig from '../config/nettwork/ImageConfig';
+import ImageConfig from '../config/network/ImageConfig';
 import {connect} from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as KeyAction from '../actions/KeyAction';

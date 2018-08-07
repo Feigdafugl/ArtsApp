@@ -15,7 +15,7 @@ import {
   ScrollView,
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import KeyDownload  from '../config/nettwork/KeyDownload';
+import KeyDownload  from '../config/network/KeyDownload';
 import RNFetchBlob from 'react-native-fetch-blob';
 import DB_helper from '../config/DB/DB_helper';
 
@@ -30,7 +30,7 @@ export default class Debug extends Component {
       count: 0,
       keyList: null,
       path: '',
-      // dataSource: ds.cloneWithRows(this.getContant()),
+      // dataSource: ds.cloneWithRows(this.getContent()),
     };
   }
 

@@ -3,8 +3,8 @@ import AsyncStore from '../config/AsyncStore';
 import LangStrings from '../config/LangStrings';
 import { NetInfo } from 'react-native';
 import DB_helper from '../config/DB/DB_helper';
-import KeyDownload from '../config/nettwork/KeyDownload';
-import ImageConfig from '../config/nettwork/ImageConfig';
+import KeyDownload from '../config/network/KeyDownload';
+import ImageConfig from '../config/network/ImageConfig';
 
 export function setLanguage(lang) {
   this.AsyncStore = new AsyncStore();
@@ -47,7 +47,7 @@ export function getlastDownload() {
   };
 };
 
-export function setContantStrings(lang) {
+export function setContentStrings(lang) {
   this.LangStrings = new LangStrings();
   return {
     type: actionTypes.GET_LANG_STRINGS,

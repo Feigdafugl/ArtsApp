@@ -6,12 +6,12 @@
  */
 
 import SQLite from 'react-native-sqlite-storage';
-import * as URLs from '../nettwork/URLs';
+import * as URLs from '../network/URLs';
 const database_name = 'AAdb.db';
 const database_version = 2;
 const database_displayname = 'SQLite ArtsApp Database';
 const database_size = 2000000;
-import ImageConfig from '../nettwork/ImageConfig';
+import ImageConfig from '../network/ImageConfig';
 
 export default class DB_helper {
 

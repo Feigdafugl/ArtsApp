@@ -1,5 +1,5 @@
 /**
- * @file MenuContant.js
+ * @file MenuContent.js
  * @author Kjetil Fossheim
  *
  * a content render for the drawer menu.
@@ -40,7 +40,7 @@ function mapDispatchToProps(dispatch) {
 }
 const drawerImage = require('../images/AA_logo.png');
 
-class MenuContant extends Component {
+class MenuContent extends Component {
 
   constructor(props) {
     super(props);
@@ -62,8 +62,8 @@ class MenuContant extends Component {
    */
   onClick(a) {
     switch(a) {
-    case 7: this.props.actions.closeMenu(); this.props.actions.setLanguage('en'); this.props.actions.setContantStrings('en'); break;
-    case 8: this.props.actions.closeMenu(); this.props.actions.setLanguage('no'); this.props.actions.setContantStrings('no'); break;
+    case 7: this.props.actions.closeMenu(); this.props.actions.setLanguage('en'); this.props.actions.setContentStrings('en'); break;
+    case 8: this.props.actions.closeMenu(); this.props.actions.setLanguage('no'); this.props.actions.setContentStrings('no'); break;
     case 9: this.props.actions.closeMenu(); break;
     }
   }
@@ -183,7 +183,7 @@ class MenuContant extends Component {
   }
 }
 
-MenuContant.defaultProps = {
+MenuContent.defaultProps = {
   strings: {
     about: '',
     language: '',
@@ -292,4 +292,4 @@ const stylesAndroidTablet = {
 };
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(MenuContant);
+export default connect(mapStateToProps, mapDispatchToProps)(MenuContent);

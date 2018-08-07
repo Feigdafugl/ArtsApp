@@ -17,7 +17,7 @@ import {
 import { Spinner } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 import DbHelper from '../config/DB/DB_helper';
-import KeyDownload  from '../config/nettwork/KeyDownload';
+import KeyDownload  from '../config/network/KeyDownload';
 
 // redux
 import {connect} from 'react-redux';
